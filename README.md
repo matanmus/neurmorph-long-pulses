@@ -1,5 +1,9 @@
 # neurmorph-long-pulses
-Code files for the article titled "Towards neuromorphic computing using longitudinal pulses in real fluids"
+Code files for the article titled "Towards neuromorphic computing using longitudinal pulses in real fluids".
+
+The scripts are used to explore computation using longitudinal pulses in a van der Waals (vdW) fluid model. The method is to apply stimulus to the reservoir (vdW fluid model) and use the multidimensional output to implement (1) classification of data and (2) regression of a mathematical function. 
+
+The vdW fluid model is numerically solved using the Dedalus open-source code, which is based on a pseudo-spectral method. Installation of the python-based framework is done using https://dedalus-project.org/. Reference: K. J. Burns, G. M. Vasil, J. S. Oishi, D. Lecoanet, and B. P. Brown, Dedalus: A Flexible Framework for Numerical Simulations with Spectral Methods, Phys Rev Res 2, 23068 (2020).
 
 This reposity includes the following python files and the yeast dataset:
 
